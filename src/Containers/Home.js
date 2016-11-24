@@ -5,7 +5,10 @@ var Home = React.createClass ({
   render: function() {
     return (
       <div>
-        Home page
+        <div className="container">
+          Home page
+        </div>
+
       </div>
     );
   }
