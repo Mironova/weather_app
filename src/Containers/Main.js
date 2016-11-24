@@ -5,7 +5,8 @@ var Main = React.createClass ({
   render() {
       return(
         <div>
-          Main component
+          <div className="col-md-3">Logo</div>
+          <div className="col-md-9">Header</div>
           {this.props.children}
         </div>
     );
